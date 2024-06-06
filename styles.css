@@ -54,6 +54,7 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 20px;
+	background-color: #f9f9f9;
 }
 
 .product-item {
@@ -64,6 +65,7 @@ header {
 	width: 150px;
 	text-align: center;
 	transition: transform 0.2s;
+	background-color: #ffffff;
 }
 
 .product-item:hover {
@@ -75,9 +77,16 @@ header {
 	border-radius: 5px;
 }
 
+.product-item div img {
+	width: 25px;
+}
+
 .product-item h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	font-size: 16px;
-	margin: 10px 0 5px;
+	gap: 10px;
 }
 
 .product-item p {
@@ -141,33 +150,66 @@ header {
 	}
 
 	.product-collection {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.product-item {
+		display: flex;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		padding: 15px;
+		margin: 10px;
+		width: 500px;
+		transition: transform 0.2s;
+		text-align: left;
+	}
+
+	.product-item img {
+		width: 100px;
+		height: auto;
+		border-radius: 5px;
+		margin-right: 15px;
+	}
+	.product-item a {
+		display: flex;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.product-item h3 {
+		display: flex;
+		flex-direction: row;
+		font-size: 16px;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.product-item div img {
+	width: 25px;
+}
 }
 
-.product-item {
-    display: flex;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 10px;
-    width: 500px;
-    transition: transform 0.2s;
-    text-align: left;
-}
+@media (max-width: 459px) {
+	.product-item img {
+		width: 100px;
+		height: 110px;
+		align-items: center;
+		border-radius: 5px;
+		margin-right: 15px;
+		margin-top: 10px;
+	}
+		.product-item h3 {
+		display: flex;
+		flex-direction: column;
+		font-size: 16px;
+		align-items: start;
+		gap: 10px;
+	}
 
-.product-item img {
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
-    margin-right: 15px;
-}
-.product-item a {
-	display: flex;
-	text-decoration: none;
-	color: inherit;
-
+	.product-item div img {
+	width: 25px;
+	height: 25px;
 }
 }
-
