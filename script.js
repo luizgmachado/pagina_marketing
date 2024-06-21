@@ -2,9 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const products = [
 
     {
+      name: 'Fritadeira Elétrica Mondial AFO-12L-BI Forno Oven 12L Cor Preto/Inox 110V',
+      description: 'A Air Fryer AFO-12L-BI da Mondial é 2 em 1: Fritadeira a Ar com o espaço e versatilidade do forno. Você pode assar, cozinhar e fritar sem óleo. A capacidade total de 12 litros permite o preparo de grandes porções....',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_846099-MLU75985087709_042024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/1nbqkcP'
+    },
+
+
+    {
       name: 'Controle joystick sem fio Sony PlayStation 5 DualSense midnight black',
       description: 'Ativa o Bluetooth Possui uma conexão Bluetooth de alta tecnologia para uso em qualquer computador ou dispositivo; você não precisará mais de aplicativos de terceiros ou cabo USB...',
-      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_628579-MLU75144495220_032024-F.webp',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_604562-MLU75144291522_032024-F.webp',
       logo: '/img/mercadolivre.png',
       link: 'https://mercadolivre.com/sec/2GYLmCo'
     },
