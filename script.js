@@ -2,6 +2,42 @@ document.addEventListener("DOMContentLoaded", function () {
   const products = [
 
     {
+      name: 'Aspirador de Pó Robô, Automático 3 em 1',
+      description: 'WAP ROBOT W90 - Aspirador de Pó Robô, Automático 3 em 1 Varre, Aspira, Passa Pano, MOP para Limpeza, 30W, Bateria Recarregável, Bivolt, Preto',
+      image: 'https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SL1500_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/3XTCVn4'
+    },
+    {
+      name: 'Samsung Galaxy S23 FE 5G',
+      description: 'Dual SIM 128 GB Grafite 8 GB RAM',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_737200-MLU76599586059_052024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/2f1GPe3'
+    },
+    {
+      name: 'Samsung Galaxy A55 5G',
+      description: 'Câmera Tripla Traseira de até 50MP, Selfie de 32MP, Nightography, Apagador de objetos, Design em metal e vidro, IP67, Super AMOLED 6.6" 120Hz Vision Booster, 128GB - Azul Escuro',
+      image: 'https://m.media-amazon.com/images/I/61VTPSln0QL._AC_SL1080_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/4bxRDDr'
+    },
+    {
+      name: 'PLG Xboom Go XG8T - 60W+60W RMS, Iluminação Lateral, IP67, 15h de Bateria, Woofer (x1) e Tweeters (x2)',
+      description: 'Potência extrema e som equilibrado! Deixe a LG Xboom Go XG8T surpreender você! Além de seu design elegante e inovador, a LG Xboom Go XG8 possui 60W+60W RMS de potência, bateria de até 15 horas de duração, proteção IP67 e certificado de durabilidade. Com 1 track woofer e 2 tweeters....',
+      image: 'https://m.media-amazon.com/images/I/71jpE5WzWPL._AC_SL1500_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/45R3600'
+    },
+    {
+      name: 'Projetor PRO Smart HD 1080p Android 11 Tv Portátil Via Wifi',
+      description: 'Conectividade avançada: com bluetooth e wi-fi integrados, você pode facilmente conectar seus dispositivos e desfrutar de conteúdo online sem complicações. Assista a seus filmes e séries favoritos diretamente das plataformas de streaming....',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_680206-MLU75198872738_032024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/22JT9SY'
+    },
+
+    {
       name: 'Fritadeira Elétrica Mondial AFO-12L-BI Forno Oven 12L Cor Preto/Inox 110V',
       description: 'A Air Fryer AFO-12L-BI da Mondial é 2 em 1: Fritadeira a Ar com o espaço e versatilidade do forno. Você pode assar, cozinhar e fritar sem óleo. A capacidade total de 12 litros permite o preparo de grandes porções....',
       image: 'https://http2.mlstatic.com/D_NQ_NP_2X_846099-MLU75985087709_042024-F.webp',
