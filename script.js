@@ -1,6 +1,67 @@
 document.addEventListener("DOMContentLoaded", function () {
   const products = [
+    
+   {     
+      name: 'Chave De Precisão Elétrica Manutenção Celular Notebook E Pc',
+      description: 'Marca: EXBOM Modelo: 04304 • Material: Liga de aço • Tensão de entrada: 3.7V• Velocidade: 200r / min • Torque máximo: 0.25 - 0. 35N.m • Duração aproximada: 120 minutos• Tempo de carregamento: 1h • Dimensões: 18 x 19 x 180 mm',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_879876-MLB76540490413_052024-F.webp',
+     logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/2bFEbDS'
+   }     ,
 
+    {
+      name: 'Fone Bluetooth 3ª Geração Para iPhone Cor Branco Luz Verde A Gold',
+      description: 'Cor da luz: Verde-escur É monaural. Seu alcance sem fio é de 10 m. Tem cancelamento de ruído. Inclui microfone.Resistente à água. Confortável e prático.',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_787865-MLU77331980509_062024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/2f8DbSh'
+    },
+
+    {
+      name: 'Nintendo Switch Console Joy-Con, Mario Kart 8 Digital + 3 Meses Assinatura Nintendo Switch Online',
+      description: 'Nintendo, Videogame, Nintendo Switch Console Joy-Con, Mario Kart 8 Digital + 3 Meses Assinatura Nintendo Switch Online',
+      image: 'https://m.media-amazon.com/images/I/61KfG0-kIiL._AC_SL1000_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/3LArgCs'
+    },
+
+    {
+      name: 'Samsung Smart TV 43" UHD 4K 43du7700 2024 Cor negro',
+      description: 'Samsung Smart TV 43" UHD 4K 43DU7700 2024, Processador Crystal 4K, Gaming Hub, Visual livre de cabos, Som em Movimento Virtual, AI Energy Mode, Controle SolarCell, Alexa built in...',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_625779-MLU76062574334_052024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/2srhoZK'
+    },
+
+    {
+      name: 'Echo Pop | Smart speaker compacto com som envolvente e Alexa | Cor Preta',
+      description: 'Este smart speaker compacto com Alexa conta com som de qualidade e é perfeito para quartos e espaços pequenos. Pequeno o suficiente para combinar com o ambiente, mas poderoso o bastante para se destacar....',
+      image: 'https://m.media-amazon.com/images/I/61V5FRUgX8L._AC_SL1000_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/3WgA59t'
+    },
+
+    {
+      name: 'Notebook Positivo Vision I15 Lumin',
+      description: 'A tela Vision i15 de 15 polegadas, com resolução 1920x1080 antirreflexiva, oferece imersão em detalhes vívidos A tecnologia Antirreflexiva reduz brilho e reflexos, aprimorando a visibilidade em ambientes iluminados...',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_650989-MLB76781842396_062024-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/1ANK1XD'
+    },
+    {
+      name: 'QCY H3 ANC Fone de Ouvido Bluetooth, Cancelamento de Ruído Ativo',
+      description: 'QCY H3 ANC Fone de Ouvido Bluetooth, Cancelamento de Ruído Ativo Headphone Bluetooth 5.4 Headset com Microfone, Certificação Hi-Res Audio, Conexão Multipontos, 60 horas reprodução (Preto)...',
+      image: 'https://m.media-amazon.com/images/I/51MvjUv989L._AC_SL1000_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/3S29mfH'
+    },
+    {
+      name: 'Apple iPhone 14 Plus (128 GB) - Meia-noite - Distribuidor autorizado',
+      description: '+ 450 reais OFF com cupom GANHOU450 | Memória RAM: 4 GBMemória interna: 128 GBTela Super Retina XDR de 6.7 polegadas.(1)Sistema avançado de câmeras para tirar melhores fotos em qualquer condição de iluminação...',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_902062-MLM51559388098_092022-F.webp',
+      logo: '/img/mercadolivre.png',
+      link: 'https://mercadolivre.com/sec/2YjxstY'
+    },
     {
       name: 'Aspirador de Pó Robô, Automático 3 em 1',
       description: 'WAP ROBOT W90 - Aspirador de Pó Robô, Automático 3 em 1 Varre, Aspira, Passa Pano, MOP para Limpeza, 30W, Bateria Recarregável, Bivolt, Preto',
@@ -24,11 +85,20 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: 'PLG Xboom Go XG8T - 60W+60W RMS, Iluminação Lateral, IP67, 15h de Bateria, Woofer (x1) e Tweeters (x2)',
-      description: 'Potência extrema e som equilibrado! Deixe a LG Xboom Go XG8T surpreender você! Além de seu design elegante e inovador, a LG Xboom Go XG8 possui 60W+60W RMS de potência, bateria de até 15 horas de duração, proteção IP67 e certificado de durabilidade. Com 1 track woofer e 2 tweeters....',
+      description: 'Potência extrema e som equilibrado! Deixe a LG Xboom Go XG8T surpreender você! Além de seu design elegante e inovador, a LG Xboom Go XG8 possui 60W+60W RMS de potência, Com 1 track woofer e 2 tweeters....',
       image: 'https://m.media-amazon.com/images/I/71jpE5WzWPL._AC_SL1500_.jpg',
       logo: '/img/amazon.png',
       link: 'https://amzn.to/45R3600'
     },
+
+    {
+      name: 'HD Externo Toshiba 1TB Canvio Basics Preto HDTB510XK3AA',
+      description: 'Especificações Técnicas Capacidade: 1TB Interfaces: USB 3.0 (compatível com USB 2.0) Taxa de transferência da interface: Até 5 Gb/s (USB 3.0) Até 480 Mb/s 1TB  Cabo USB 3.0 (compatível com USB 2.0....',
+      image: 'https://m.media-amazon.com/images/I/812TSgVwfWL._AC_SL1500_.jpg',
+      logo: '/img/amazon.png',
+      link: 'https://amzn.to/4cFtiwy'
+    },
+
     {
       name: 'Projetor PRO Smart HD 1080p Android 11 Tv Portátil Via Wifi',
       description: 'Conectividade avançada: com bluetooth e wi-fi integrados, você pode facilmente conectar seus dispositivos e desfrutar de conteúdo online sem complicações. Assista a seus filmes e séries favoritos diretamente das plataformas de streaming....',
