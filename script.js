@@ -2,12 +2,20 @@ document.addEventListener("DOMContentLoaded", function () {
   const products = [
     
    {     
-      name: 'Chave De Precisão Elétrica Manutenção Celular Notebook E Pc',
-      description: 'Marca: EXBOM Modelo: 04304 • Material: Liga de aço • Tensão de entrada: 3.7V• Velocidade: 200r / min • Torque máximo: 0.25 - 0. 35N.m • Duração aproximada: 120 minutos• Tempo de carregamento: 1h • Dimensões: 18 x 19 x 180 mm',
-      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_879876-MLB76540490413_052024-F.webp',
+     name: 'Samsung Galaxy Buds3',
+     description: 'Samsung Galaxy Buds3, Fone de Ouvido sem fio, som mais imersivo, Cancelamento Ativo de Ruído, Áudio Hi- Fi, Áudio 360, Tradução Simultanêa com Galaxy AI ',
+     image: 'https://samsungbrshop.vtexassets.com/arquivos/ids/234313-600-auto?v=638557276710370000& width=600&height=auto&aspect=true',
+     logo: '/img/amazon.png',
+     link: 'https://amzn.to/3Sh3X4w'
+   },
+    
+   {     
+     name: 'Chave De Precisão Elétrica Manutenção Celular Notebook E Pc',
+     description: 'Marca: EXBOM Modelo: 04304 • Material: Liga de aço • Tensão de entrada: 3.7V• Velocidade: 200r / min • Torque máximo: 0.25 - 0. 35N.m • Duração aproximada: 120 minutos• Tempo de carregamento: 1h • Dimensões: 18 x 19 x 180 mm',
+     image: 'https://http2.mlstatic.com/D_NQ_NP_2X_879876-MLB76540490413_052024-F.webp',
      logo: '/img/mercadolivre.png',
-      link: 'https://mercadolivre.com/sec/2bFEbDS'
-   }     ,
+     link: 'https://mercadolivre.com/sec/2bFEbDS'
+   },
 
     {
       name: 'Fone Bluetooth 3ª Geração Para iPhone Cor Branco Luz Verde A Gold',
